@@ -12,8 +12,8 @@ To install the plugin you have two possibilities,
 
 ## Installation FR
 Pour installer mon plugin vous avez plusieurs possibilités, 
-* You download it via **poggit** in ```PayPublicity.phar``` [Downland](https://poggit.pmmp.io/ci/SteellgoldEstFrancais/PayYourPublicity/PayPublicityFR)
-* You download it from my **GitHub** in ```PayPublicity.zip``` [Downland](https://github.com/SteellgoldEstFrancais/PayYourPublicity/tree/master/PayPublicityFR)
+* Télécharger via **poggit** en ```PayPublicity.phar``` [Downland](https://poggit.pmmp.io/ci/SteellgoldEstFrancais/PayYourPublicity/PayPublicityFR)
+* Télécharger via **GitHub** en ```PayPublicity.zip``` [Downland](https://github.com/SteellgoldEstFrancais/PayYourPublicity/tree/master/PayPublicityFR)
 
 
 ## Usage
