@@ -20,14 +20,7 @@ use onebone\economyapi\EconomyAPI;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener{
-
-	public function onEnable() : void{
-		$this->getLogger()->info("§ePayPublicity is Enable !");
-        @mkdir($this->getDataFolder(), 0744, true);
-        $this->saveResource('config.yml', false);
-        $this->config = new Config($this->getDataFolder().'config.yml', Config::YAML);
-	}
-
+	
       public function onCommand(CommandSender $player, Command $command, String $label, array $args) : bool {
 		switch($command->getName()){
 
@@ -94,9 +87,5 @@ class Main extends PluginBase implements Listener{
        // ==================================================================================================== //
 
 		}
-	}
-
-	public function onDisable() : void{
-		$this->getLogger()->info("§cPayPublicity is Disable !");
 	}
 }
