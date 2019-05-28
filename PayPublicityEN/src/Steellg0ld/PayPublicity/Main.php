@@ -24,9 +24,8 @@ class Main extends PluginBase implements Listener{
       public function onCommand(CommandSender $player, Command $command, String $label, array $args) : bool {
 		switch($command->getName()){
 
-       // ==================================================================================================== //
 
-        case "pb": // PLAYER
+        case "pb":
         	if(EconomyAPI::getInstance()->myMoney($player) >= 100000){
                $message = implode(" ", $args);
                 EconomyAPI::getInstance()->reduceMoney($player, 100000);
@@ -44,9 +43,8 @@ class Main extends PluginBase implements Listener{
             return true;
         break;
 
-       // ==================================================================================================== //
 
-        case "pbv": // VIP
+        case "pbv":
         	if(EconomyAPI::getInstance()->myMoney($player) >= 10000){
                $message = implode(" ", $args);
                 EconomyAPI::getInstance()->reduceMoney($player, 10000);
@@ -64,9 +62,8 @@ class Main extends PluginBase implements Listener{
             return true;
         break;
 
-       // ==================================================================================================== //
 
-        case "pbvp": // VIP+
+        case "pbvp":
         	if(EconomyAPI::getInstance()->myMoney($player) >= 65000){
                $message = implode(" ", $args);
                 EconomyAPI::getInstance()->reduceMoney($player, 65000);
@@ -83,8 +80,6 @@ class Main extends PluginBase implements Listener{
             }
             return true;
         break;
-
-       // ==================================================================================================== //
 
 		}
 	}
