@@ -35,10 +35,10 @@ commands:
 permissions:
  pb.use:
   default: true
-  description: "§ePayPublicity > Pay your Publicity for 100.000$"
+  description: "§ePayPublicity > Pay your Publicity (Guest)"
  pb.use.vip:
   default: op
-  description: "§ePayPublicity > Pay your Publicity for 10.000$"
+  description: "§ePayPublicity > Pay your Publicity (VIP)"
  pb.use.vipp:
   default: op
-  description: "§ePayPublicity > Pay your Publicity for 6500$"
+  description: "§ePayPublicity > Pay your Publicity (VIP+)"
