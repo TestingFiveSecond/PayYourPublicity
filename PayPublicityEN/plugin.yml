@@ -20,15 +20,15 @@ ressources:
 
 commands:
  pb:
-  description: "§ePayPublicity > Pay your Publicity for 100.000$"
+  description: "§ePayPublicity > Pay your Publicity (Guest)"
   usage: "/pb"
   permission: pb.use
  pbv:
-  description: "§ePayPublicity > Pay your Publicity for 10.000$ §c§l[VIP]"
+  description: "§ePayPublicity > Pay your Publicity (VIP)"
   usage: "/pbv"
   permission: pb.use.vip
  pbvp:
-  description: "§ePayPublicity > Pay your Publicity for 6500$ §c§l[VIP+]"
+  description: "§ePayPublicity > Pay your Publicity (VIP+)"
   usage: "/pbvp"
   permission: pb.use.vipp
 
