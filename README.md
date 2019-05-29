@@ -4,6 +4,11 @@
 
 **FR** : Ce plugin consiste au joueur, vip, et vip+, de payer une certaine somme d'argent en jeu contre une pub à l'écran
 
+## TODO
+* System to manually add an ad order
+* Système pour ajouter manuellement une commande de pub
+Exemple : /pbytb **For Youtuber**
+
 ## Installation EN
 
 To install the plugin you have two possibilities,
