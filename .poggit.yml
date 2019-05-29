@@ -4,6 +4,5 @@ branches:
 projects:
   PayPublicityEN:
     path: PayPublicityEN/
-  PayPublicityFR:
-    path: PayPublicityFR/
+icon: "icon.png"
 ...
